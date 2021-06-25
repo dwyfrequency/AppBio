@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppBio</string>
+    <string name="yourName">Jackie Decodes</string>
+    <string name="yourBio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida massa mi, at sodales mauris venenatis at. Curabitur eget mauris odio. Morbi faucibus dui non aliquam fringilla. Donec in interdum dolor. Nunc faucibus sit amet dolor ut ornare. Phasellus efficitur nisi malesuada risus laoreet, id sollicitudin augue tempus. Praesent vitae quam imperdiet, semper magna in, varius dui. Donec tempor nibh sed ante vulputate, nec gravida lectus ultricies. Aliquam vel velit tellus. Vivamus rhoncus at augue et viverra. Integer dui sapien, porta nec pharetra quis, facilisis nec nunc. Nullam eleifend quam non libero pulvinar fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+    <string name="inputHobbyHiint">Enter your hobbies:</string>
+    <string name="addHobbyBtn">Add</string>
 </resources>

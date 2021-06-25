@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="#36009688"
     android:orientation="vertical"
+    android:padding="8dp"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <ImageView
@@ -14,4 +16,55 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/yourName"
+        style="@style/nameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="@string/yourName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/inputHobbyHiint"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/addHobbyBtn" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="@dimen/lineSpace"
+                android:text="@string/yourBio"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>
